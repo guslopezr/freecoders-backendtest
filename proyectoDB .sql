@@ -90,14 +90,14 @@ CREATE TABLE solicitudes(
   	stack_3 VARCHAR (50),
   	stack_otros VARCHAR (50),
   	boceto VARCHAR (100),
-	presupuesto FLOAT(2),
+	presupuesto FLOAT(2), Comentario: En el front no está este campo.
 	programador_id INT,
 	FOREIGN KEY (programador_id)
 	REFERENCES programadores(id),
 	fecha_solicitud TIME DEFAULT CURRENT_TIME
 );
 
-CREATE TABLE propuesta_coder (
+CREATE TABLE propuesta_coder (  Comentario: Acá también se recomienda alargar los campos de texto libre a 200.
   id SERIAL PRIMARY KEY,
   solicitud_id INT,
   FOREIGN KEY (solicitud_id)
