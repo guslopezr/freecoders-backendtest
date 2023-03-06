@@ -1,0 +1,10 @@
+
+
+Todos los usuarios
+
+http://localhost:3000/users
+
+
+Usuario en específico
+
+http://localhost:3000/users/1
