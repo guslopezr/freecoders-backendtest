@@ -1,10 +1,11 @@
 
 
-Todos los usuarios
-
+Ver Todos los usuarios
 http://localhost:3000/users
 
 
-Usuario en específico
-
+Ver Usuario en específico
 http://localhost:3000/users/1
+
+Cargar usuarios: 
+http://localhost:3000/users
