@@ -62,3 +62,28 @@ VALUES (1, 'Desarrollo de app de reserva', 'Propuesta para app de reserva de cit
 INSERT INTO propuesta_coder (solicitud_id, titulo_propuesta, descripcion_propuesta, stack_1, stack_2, stack_3, stack_otros, alcance, cantidad_revisiones, horas_estimadas, valor_final)
 VALUES (1, 'Desarrollo de tienda en línea', 'Propuesta para desarrollo sitio ecommerce.', 'HTML', 'CSS', 'JavaScript', 'PHP', 'Desarrollo completo de la tienda en línea, incluyendo diseño, implementación, pruebas y despliegue.', 3, 150, 300000),
 (2, 'Desarrollo de app de seguimiento de gastos', 'Propuesta de aplicación móvil seguimiento gastos.', 'React Native', 'Firebase', 'N/A', 'N/A', 'Desarrollo completo aplicación seguimiento de gastos. Diseño, implementación, pruebas y despliegue.', 2, 80, 1500000);
+
+
+INSERT INTO framework_lenguaje (programador_id, framework_id, experiencia) 
+VALUES
+(1, 1, '1'),
+(2, 1, '1'),
+(3, 1, '2 '),
+(6, 1, '2 ')
+
+INSERT INTO programador_basedatos (programador_id, basedatos_id, experiencia) VALUES
+(1, 2, '1'),
+(2, 2, '1'),
+(3, 2, '2'),
+(6, 2, '2')
+
+INSERT INTO programador_lenguaje (programador_id, lenguajes_id, experiencia) VALUES
+(1, 2, '1 '),
+(2, 2, '1 '),
+(3, 2, '2 '),
+(6, 2, '2 ')
+
+INSERT INTO clientes (nombre, apellido, email, telefono) VALUES
+('Juan', 'Pérez', 'juan.perez@mail.com', 95551234),
+('María', 'González', 'maria.gonzalez@mail.com', 95555678),
+('Pedro', 'Ramírez', 'pedro.ramirez@mail.com', 95559012);
